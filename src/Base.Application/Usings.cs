@@ -1,0 +1,16 @@
+﻿global using Microsoft.AspNetCore.Http;
+global using System.Linq.Expressions;
+global using Serilog;
+global using System.Globalization;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using Microsoft.Extensions.Options;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.AspNetCore.Hosting;
+global using Base.Domain.Common;
+global using Base.Domain.Repositories.Common;
+global using Base.Application.ViewModels;
+global using Base.Application.ViewModels.Options;
+global using Base.Common.Common.Result;
+global using Base.Common.Exceptions;
