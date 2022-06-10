@@ -14,3 +14,7 @@ global using Base.Application.ViewModels;
 global using Base.Application.ViewModels.Options;
 global using Base.Common.Common.Result;
 global using Base.Common.Exceptions;
+global using MailKit.Net.Smtp;
+global using MailKit.Security;
+global using MimeKit;
+global using Base.Common.Common;
