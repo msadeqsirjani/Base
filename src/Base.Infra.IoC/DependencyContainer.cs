@@ -33,6 +33,7 @@ public static class DependencyContainer
         services.AddTransient<ILogService, LogService>();
         services.AddTransient<IJwtService, JwtService>();
         services.AddTransient<IFileService, FileService>();
+        services.AddTransient<IMailService, MailService>();
 
         services.Configure<JwtSetting>(configuration.GetSection("JwtSetting"));
 
